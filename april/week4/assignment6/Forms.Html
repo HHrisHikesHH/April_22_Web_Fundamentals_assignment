@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="font-size: larger;">
   <head>
     <title>Forms</title>
     <h2 style="text-align: center; color: rgb(255, 255, 255)">
@@ -12,9 +12,10 @@
   <body
     style="
       color: rgb(255, 255, 255);
+      text-decoration-thickness: 90;
       background-image: linear-gradient(
         to right,
-        red,
+        rgb(255, 0, 0),
         orange,
         yellow,
         green,
@@ -26,112 +27,52 @@
   >
     <form style="text-align: center">
       <p>
-        <label>Username</label>
-        <input placeholder="XYZ@gmail.com" size="10" maxlength="20" />
+        <label>Firstname</label>
+        <input placeholder="Hrishikesh" size="10" maxlength="20" />
       </p>
       <p>
-        <label>Password</label>
-        <input
-          placeholder="Password"
-          type="password"
-          size="10"
-          maxlength="20"
-        />
+        <label>Lastname</label>
+        <input placeholder="Kalekinge" size="10" maxlength="20" />
       </p>
       <p>
-        <label>OTP</label>
-        <input
-          placeholder="OTP"
-          type="text"
-          size="4"
-          minlenth="4"
-          maxlength="4"
-        />
+        <label>email Id</label>
+        <input type="email" placeholder="XYZ@gmail.com" size="10" maxlength="20"/>
+        <p>
+          <label>Phone no.</label>
+          <input type="number" placeholder="+91 XXXXXXXXXX" size="10" maxlength="20" />
+        </p>
       </p>
       <p>
-        <label>Pincode</label>
-        <input
-          placeholder="OTP"
-          type="number"
-          size="10"
-          minlenth="6"
-          maxlength="6"
-        />
+        <label>Upload your Resume</label>
+        <input type="file" />
       </p>
       <p>
-        <label>Disable</label>
-        <input
-          type="number"
-          placeholder="XYZ@gmail.com"
-          value="ddd"
-          size="10"
-          maxlength="20"
-          disabled
-        />
-      </p>
-      <p>
-        <label>Readonly</label>
-        <input
-          type=""
-          value="kabir sir is best"
-          size="10"
-          maxlength="20"
-          readonly
-        />
-      </p>
-      <p>
-        <label>Datalist</label>
-        <input placeholder="Enter the value" list="data" />
+        <label>Education</label>
+        <input placeholder="Max Education" list="data" />
         <datalist id="data">
-          <option>12 rules for life</option>
-          <option>beyond order and chaos</option>
-          <option>think and grow rich</option>
-          <option>48 laws of power</option>
-          <option>barking at wrong tree</option>
-          <option>7 habit of highly effective</option>
-          <option>8th habit</option>
-          <option>5 am club</option>
-          <option>monk who sold his ferrari</option>
-          <option>cosmos</option>
+          <option>SSC</option>
+          <option>HSC</option>
+          <option>Diploma certificate</option>
+          <option>ITI certificate</option>
+          <option>BE/BTech</option>
+          <option>ME/Mtech</option>
+          <option>Phd</option>
         </datalist>
       </p>
       <p>
-        <label>Color</label>
-        <input type="color" />
+        <label>Female</label>
+        <input type="radio" />
+        <label>Male</label>
+        <input type="radio" />
+        <label>Rather not say</label>
+        <input type="radio" />
       </p>
+
       <p>
-        <label>Date</label>
-        <input type="date" />
+        <label>Address</label>
+        <textarea></textarea>
       </p>
-      <p>
-        <label>Datetime-L</label>
-        <input type="datetime-local" />
-      </p>
-      <p>
-        <label>Datetime</label>
-        <input type="datetime" />
-      </p>
-      <p>
-        <label>Week</label>
-        <input type="week" />
-      </p>
-      <p>
-        <label>months</label>
-        <input type="month" />
-      </p>
-      <p>
-        <label>email</label>
-        <input type="email" />
-      </p>
-      <p>
-        <label>choose ur file</label>
-        <input type="file" />
-      </p>
-      <button>Tag</button>
-      <p>
-        <label>button i/p</label>
-        <input type="button" />
-      </p>
+      <button>Register</button>
     </form>
   </body>
 </html>
