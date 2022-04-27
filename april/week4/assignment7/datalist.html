@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Data Suggestor</title>
+    <style>
+      img {
+        height: 500px;
+        width: 500px;
+        border-radius: 0%;
+      }
+      #q {
+        height: 500px;
+        width: 500px;
+        border-radius: 30%;
+      }
+      * {
+        text-align: center;
+        background-color: black;
+        color: aliceblue;
+        font-family: "Source Sans Pro", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="https://duckduckgo.com/assets/logo_homepage.alt.v108.svg" />
+    <h3>Search anything in HTML and CSS</h3>
+    <h5>We have everything</h5>
+    <input placeholder="Type the Keyword" list="data" />
+    <datalist id="data">
+      <option>HTML Tutorial</option>
+      <option>HTML Anchor</option>
+      <option>HTML HOME</option>
+      <option>HTML Introduction</option>
+      <option>HTML Editors</option>
+      <option>HTML Basic</option>
+      <option>HTML Elements</option>
+      <option>HTML Attributes</option>
+      <option>HTML Headings</option>
+      <option>HTML Paragraphs</option>
+      <option>HTML Styles</option>
+      <option>HTML Formatting</option>
+      <option>HTML Quotations</option>
+      <option>HTML Comments</option>
+      <option>HTML Colors</option>
+      <option>HTML CSS</option>
+      <option>HTML Links</option>
+      <option>HTML Images</option>
+      <option>HTML Favicon</option>
+      <option>HTML Tables</option>
+      <option>HTML Lists</option>
+      <option>HTML Block & Inline</option>
+      <option>HTML Classes</option>
+      <option>HTML Id</option>
+      <option>HTML Iframes</option>
+      <option>HTML JavaScript</option>
+      <option>HTML File Paths</option>
+      <option>HTML Head</option>
+      <option>HTML Layout</option>
+      <option>HTML Responsive</option>
+      <option>HTML Computercode</option>
+      <option>HTML Semantics</option>
+      <option>HTML Style Guide</option>
+      <option>HTML Entities</option>
+      <option>HTML Symbols</option>
+      <option>HTML Emojis</option>
+      <option>HTML Charset</option>
+      <option>HTML URL Encode</option>
+      <option>HTML vs. XHTML</option>
+      <option>HTML Forms</option>
+      <option>HTML Form Attributes</option>
+      <option>HTML Form Elements</option>
+      <option>HTML Input Types</option>
+      <option>HTML Input Attributes</option>
+      <option>HTML Input Form Attributes</option>
+      <option>HTML Graphics</option>
+      <option>HTML Canvas</option>
+      <option>HTML SVG</option>
+      <option>HTML Media</option>
+      <option>HTML Video</option>
+      <option>HTML Audio</option>
+      <option>HTML Plug-ins</option>
+      <option>HTML YouTube</option>
+      <option>HTML APIs</option>
+      <option>HTML Geolocation</option>
+      <option>HTML Drag/Drop</option>
+      <option>HTML Web Storage</option>
+      <option>HTML Web Workers</option>
+      <option>HTML SSE</option>
+      <option>HTML Examples</option>
+      <option>HTML Quiz</option>
+      <option>HTML Exercises</option>
+      <option>HTML Certificate</option>
+      <option>HTML Summary</option>
+      <option>HTML Accessibility</option>
+      <option>HTML References</option>
+      <option>HTML Tag List</option>
+      <option>HTML Attributes</option>
+      <option>HTML Global Attributes</option>
+      <option>HTML Browser Support</option>
+      <option>HTML Events</option>
+      <option>HTML Colors</option>
+      <option>HTML Canvas</option>
+      <option>HTML Audio/Video</option>
+      <option>HTML Doctypes</option>
+      <option>HTML Character Sets</option>
+      <option>HTML URL Encode</option>
+      <option>HTML Lang Codes</option>
+      <option>HTTP Messages</option>
+      <option>HTTP Methods</option>
+      <option>PX to EM Converter</option>
+      <option>Keyboard Shortcuts</option>
+
+      <option>CSS Tutorial</option>
+      <option>CSS HOME</option>
+      <option>CSS Introduction</option>
+      <option>CSS Syntax</option>
+      <option>CSS Selectors</option>
+      <option>CSS How To</option>
+      <option>CSS Comments</option>
+      <option>CSS Colors</option>
+      <option>CSS Backgrounds</option>
+      <option>CSS Borders</option>
+      <option>CSS Margins</option>
+      <option>CSS Padding</option>
+      <option>CSS Height/Width</option>
+      <option>CSS Box Model</option>
+      <option>CSS Outline</option>
+      <option>CSS Text</option>
+      <option>CSS Fonts</option>
+      <option>CSS Icons</option>
+      <option>CSS Links</option>
+      <option>CSS Lists</option>
+      <option>CSS Tables</option>
+      <option>CSS Display</option>
+      <option>CSS Max-width</option>
+      <option>CSS Position</option>
+      <option>CSS Z-index</option>
+      <option>CSS Overflow</option>
+      <option>CSS Float</option>
+      <option>CSS Inline-block</option>
+      <option>CSS Align</option>
+      <option>CSS Combinators</option>
+      <option>CSS Pseudo-class</option>
+      <option>CSS Pseudo-element</option>
+      <option>CSS Opacity</option>
+      <option>CSS Navigation Bar</option>
+      <option>CSS Dropdowns</option>
+      <option>CSS Image Gallery</option>
+      <option>CSS Image Sprites</option>
+      <option>CSS Attr Selectors</option>
+      <option>CSS Forms</option>
+      <option>CSS Counters</option>
+      <option>CSS Website Layout</option>
+      <option>CSS Units</option>
+      <option>CSS Specificity</option>
+      <option>CSS !important</option>
+      <option>CSS Math Functions</option>
+      <option>CSS Advanced</option>
+      <option>CSS Rounded Corners</option>
+      <option>CSS Border Images</option>
+      <option>CSS Backgrounds</option>
+      <option>CSS Colors</option>
+      <option>CSS Color Keywords</option>
+      <option>CSS Gradients</option>
+      <option>CSS Shadows</option>
+      <option>CSS Text Effects</option>
+      <option>CSS Web Fonts</option>
+      <option>CSS 2D Transforms</option>
+      <option>CSS 3D Transforms</option>
+      <option>CSS Transitions</option>
+      <option>CSS Animations</option>
+      <option>CSS Tooltips</option>
+      <option>CSS Style Images</option>
+      <option>CSS Image Reflection</option>
+      <option>CSS object-fit</option>
+      <option>CSS object-position</option>
+      <option>CSS Masking</option>
+      <option>CSS Buttons</option>
+      <option>CSS Pagination</option>
+      <option>CSS Multiple Columns</option>
+      <option>CSS User Interface</option>
+      <option>CSS Variables</option>
+      <option>CSS Box Sizing</option>
+      <option>CSS Media Queries</option>
+      <option>CSS MQ Examples</option>
+      <option>CSS Flexbox</option>
+      <option>CSS Responsive</option>
+      <option>RWD Intro</option>
+      <option>RWD Viewport</option>
+      <option>RWD Grid View</option>
+      <option>RWD Media Queries</option>
+      <option>RWD Images</option>
+      <option>RWD Videos</option>
+      <option>RWD Frameworks</option>
+      <option>RWD Templates</option>
+      <option>CSS Grid</option>
+      <option>Grid Intro</option>
+      <option>Grid Container</option>
+      <option>Grid Item</option>
+      <option>CSS SASS</option>
+      <option>SASS Tutorial</option>
+      <option>CSS Templates</option>
+      <option>CSS Examples</option>
+      <option>CSS Quiz</option>
+      <option>CSS Exercises</option>
+      <option>CSS Certificate</option>
+      <option>CSS References</option>
+      <option>CSS Reference</option>
+      <option>CSS Selectors</option>
+      <option>CSS Functions</option>
+      <option>CSS Reference Aural</option>
+      <option>CSS Web Safe Fonts</option>
+      <option>CSS Animatable</option>
+      <option>CSS Units</option>
+      <option>CSS PX-EM Converter</option>
+      <option>CSS Colors</option>
+      <option>CSS Color Values</option>
+      <option>CSS Default Values</option>
+      <option>CSS Browser Support</option>
+    </datalist>
+    <button>search</button>
+    <h6>Scroll down for more</h6>
+
+    <p>
+      <img
+        style="height: 10px; width: 10px"
+        src="https://duckduckgo.com/assets/onboarding/arrow.svg"
+      />
+    </p>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <p>
+      <img
+        id="q"
+        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmemetemplateindia.com%2Fwp-content%2Fuploads%2F2020%2F07%2Fimg_20200630_1214367521272881421389238.jpg&f=1&nofb=1"
+      />
+    </p>
+    <p>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <img
+        id="q"
+        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhumornama.com%2Fwp-content%2Fuploads%2F2020%2F09%2FKhatam-Bye-Bye-Tata-Goodbye-Rahul-Gandhi-meme-template.jpg&f=1&nofb=1"
+      />
+    </p>
+  </body>
+</html>
