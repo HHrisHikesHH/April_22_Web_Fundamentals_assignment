@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html style="font-size: larger;">
+  <head>
+    <title>Forms</title>
+    <h2 style="text-align: center; color: rgb(255, 255, 255)">
+      Registration Form
+    </h2>
+    <h4 style="text-align: center; color: rgb(255, 255, 255)">
+      Please fill the info. below
+    </h4>
+  </head>
+  <body
+    style="
+      color: rgb(255, 255, 255);
+      text-decoration-thickness: 90;
+      background-image: linear-gradient(
+        to right,
+        rgb(255, 0, 0),
+        orange,
+        yellow,
+        green,
+        blue,
+        indigo,
+        violet
+      );
+    "
+  >
+    <form style="text-align: center">
+      <p>
+        <label>Firstname</label>
+        <input placeholder="Hrishikesh" size="10" maxlength="20" />
+      </p>
+      <p>
+        <label>Lastname</label>
+        <input placeholder="Kalekinge" size="10" maxlength="20" />
+      </p>
+      <p>
+        <label>email Id</label>
+        <input type="email" placeholder="XYZ@gmail.com" size="10" maxlength="20"/>
+        <p>
+          <label>Phone no.</label>
+          <input type="number" placeholder="+91 XXXXXXXXXX" size="10" maxlength="20" />
+        </p>
+      </p>
+      <p>
+        <label>Upload your Resume</label>
+        <input type="file" />
+      </p>
+      <p>
+        <label>Education</label>
+        <input placeholder="Max Education" list="data" />
+        <datalist id="data">
+          <option>SSC</option>
+          <option>HSC</option>
+          <option>Diploma certificate</option>
+          <option>ITI certificate</option>
+          <option>BE/BTech</option>
+          <option>ME/Mtech</option>
+          <option>Phd</option>
+        </datalist>
+      </p>
+      <p>
+        <label>Female</label>
+        <input type="radio" />
+        <label>Male</label>
+        <input type="radio" />
+        <label>Rather not say</label>
+        <input type="radio" />
+      </p>
+
+      <p>
+        <label>Address</label>
+        <textarea></textarea>
+      </p>
+      <button>Register</button>
+    </form>
+  </body>
+</html>
