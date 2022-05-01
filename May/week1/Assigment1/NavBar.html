@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Navigation Bar</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      }
+
+      #logo img {
+        float: left;
+        height: 60px;
+        width: 64px;
+        margin: 1px 10px;
+        border-radius: 25%;
+      }
+
+      #logo img:hover {
+        cursor: pointer;
+      }
+
+      #logo a {
+        text-decoration: none;
+        font-family: "Square Peg";
+        float: left;
+        margin-top: 26px;
+        font-size: 25px;
+        font-weight: 700;
+        color: #d52603;
+        margin-right: 327px;
+      }
+
+      .navbar1 {
+        background-image: linear-gradient(
+          190deg,
+          #f81111,
+          #ecf014,
+          #ffc400,
+          #f81111
+        );
+        border-radius: 0px 0px 7px 7px;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        height: 59px;
+      }
+
+      .navbar1 ul {
+        overflow: auto;
+      }
+
+      .navbar1 li {
+        float: left;
+        list-style: none;
+        padding: 9px;
+        font-size: 22px;
+        margin: 6px 27px;
+      }
+
+      .navbar1 li a {
+        text-decoration: none;
+        font-family: "Block Berthold";
+        color: #402c2c;
+        letter-spacing: 0.5px;
+      }
+
+      .navbar1 li a:hover {
+        color: rgb(219, 145, 61);
+      }
+
+      .search {
+        color: rgb(230, 15, 15);
+        float: right;
+        padding: 7px 56px;
+        margin: 4px;
+        border-radius: 21px;
+        border: rgb(230, 226, 20);
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar1">
+        <ul>
+          <div id="logo">
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.grBHlUIARSb9yBCG7vpFDgHaEo%26pid%3DApi&f=1"
+              alt="LOGO"
+            />
+            <h3>Kharadi Fried Chicken</h3>
+          </div>
+          <div>
+            <li><a href="https://geekster.in/">Home</a></li>
+            <li><a href="https://blog.geekster.in/">About</a></li>
+            <li><a href="https://geekster.in/employer">Careers</a></li>
+            <li>
+              <a href="https://geekster.in/full-stack-web-development-program"
+                >Contact Us</a
+              >
+            </li>
+          </div>
+
+          <div class="search">
+            <input
+              list="search"
+              name="search"
+              class="search"
+              id="search"
+              placeholder="Search Your Meal"
+            />
+            <datalist id="search">
+              <option value="Mutton thali"></option>
+              <option value="Chicken thali"></option>
+              <option value="Pitla Bhakri"></option>
+              <option value="Tambda pabdhra rassa"></option>
+              <option value="Masala Taak"></option>
+            </datalist>
+          </div>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>
